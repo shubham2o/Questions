@@ -1,5 +1,7 @@
 // https://www.tutorialstonight.com/js/javascript-star-pattern#:~:text=Create%20a%20variable%20to%20store,the%20line%20and%20space%20in
-console.log(`5. Downward Triangle Star Pattern`);
+
+console.log(`5. 
+Downward Triangle Star Pattern`);
 
 function downwardTriangleStarPattern() {
     let n = 5;

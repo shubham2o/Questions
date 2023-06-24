@@ -1,5 +1,7 @@
 // https://www.tutorialstonight.com/js/javascript-star-pattern#:~:text=Create%20a%20variable%20to%20store,the%20line%20and%20space%20in
-console.log(`1. Square Star Pattern`);
+
+console.log(`1. 
+Square Star Pattern`);
 
 function squareStarPattern(n) {
     let star = "";

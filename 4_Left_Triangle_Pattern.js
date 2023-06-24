@@ -1,5 +1,7 @@
 // https://www.tutorialstonight.com/js/javascript-star-pattern#:~:text=Create%20a%20variable%20to%20store,the%20line%20and%20space%20in
-console.log(`4. Left Triangle Pattern`);
+
+console.log(`4. 
+Left Triangle Pattern`);
 
 function leftTrianglePattern() {
     let n = 5;
