@@ -1,9 +1,8 @@
 // https://codedamn.com/problem/7ISrqgpr3I62iv-UKUcRh
 
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
+import { useState } from "react";
 
-const App = () => {
+const TodoList = () => {
     let key = 0;
 
     const [currentTodo, setCurrentTodo] = useState('');
@@ -33,5 +32,4 @@ const App = () => {
     )
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default TodoList;
