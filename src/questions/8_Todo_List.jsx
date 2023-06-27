@@ -22,13 +22,12 @@ const App = () => {
                 onChange={(e) => setCurrentTodo(e.target.value)}
             />
 
-            <button
-                onClick={addTodo}
-            >Add a todo
-            </button>
+            <button onClick={addTodo}>Add a todo</button>
 
             <ul>
-                {todos.map(el => <li key={key++}>{el}</li>)}
+                {todos.map(el =>
+                    <li key={key++}>{el}</li>
+                )}
             </ul>
         </div>
     )
