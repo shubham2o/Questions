@@ -6,17 +6,16 @@ import WordCounter from "./9_Word_Counter";
 const Layout = () => {
     return (
         <>
-            <br />
+            <h2>8.</h2>
             <TodoList />
             <br />
             <hr color="red" />
             <hr color="blue" />
-            <br />
+            <h2>9.</h2>
             <WordCounter />
             <br />
             <hr color="red" />
             <hr color="blue" />
-            <br />
         </>
     );
 }
