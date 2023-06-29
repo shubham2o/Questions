@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import TodoList from "./8_Todo_List";
 import WordCounter from "./9_Word_Counter";
 import LocalStorageLiftStateUp from "./10_Local_Storage_lift_state_up";
+import LocalStorage from './12_Local_Storage';
 
 const Layout = () => {
     return (
@@ -12,13 +13,21 @@ const Layout = () => {
             <br />
             <hr color="red" />
             <hr color="blue" />
+
             <h2>9.</h2>
             <WordCounter />
             <br />
             <hr color="red" />
             <hr color="blue" />
+
             <h2>10.</h2>
             <LocalStorageLiftStateUp />
+            <br />
+            <hr color="red" />
+            <hr color="blue" />
+
+            <h2>12.</h2>
+            <LocalStorage />
             <br />
             <hr color="red" />
             <hr color="blue" />
