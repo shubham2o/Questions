@@ -5,6 +5,7 @@ import WordCounter from "./9_Word_Counter";
 import LocalStorageLiftStateUp from "./10_Local_Storage_lift_state_up";
 import LocalStorage from './12_Local_Storage';
 import SelectAllCheckboxes from './14_Select_all_checkboxes';
+import UseTheme from './15_useTheme';
 
 const Layout = () => {
     return (
@@ -34,6 +35,12 @@ const Layout = () => {
 
             <h2>14. Select-All-Checkboxes</h2>
             <SelectAllCheckboxes />
+            <hr color="red" />
+            <hr color="blue" />
+
+            <h2>15. useTheme</h2>
+            <UseTheme />
+            <br />
             <hr color="red" />
             <hr color="blue" />
         </>
