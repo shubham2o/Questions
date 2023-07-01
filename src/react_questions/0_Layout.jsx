@@ -6,6 +6,7 @@ import LocalStorageLiftStateUp from "./10_Local_Storage_lift_state_up";
 import LocalStorage from './12_Local_Storage';
 import SelectAllCheckboxes from './14_Select_all_checkboxes';
 import UseTheme from './15_useTheme';
+import StyledButton from './16_Styled_Button';
 
 const Layout = () => {
     return (
@@ -40,6 +41,13 @@ const Layout = () => {
 
             <h2>15. useTheme</h2>
             <UseTheme />
+            <br />
+            <hr color="red" />
+            <hr color="blue" />
+
+            <h2>16. StyledButton</h2>
+            <StyledButton />
+            <br />
             <br />
             <hr color="red" />
             <hr color="blue" />
