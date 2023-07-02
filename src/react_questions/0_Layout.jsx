@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import TodoList from "./8_Todo_List";
 import WordCounter from "./9_Word_Counter";
 import LocalStorageLiftStateUp from "./10_Local_Storage_lift_state_up";
