@@ -13,7 +13,7 @@ const useLocalStorage = (key, initialValue) => {
 }
 
 const LocalStorageIIHook = () => {
-    const { value, setValue } = useLocalStorage('inputValue', '');
+    const { value, setValue } = useLocalStorage('inputValue17', '');
 
     const handleChange = (e) => {
         setValue(e.target.value);
