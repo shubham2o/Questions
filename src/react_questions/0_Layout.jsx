@@ -9,6 +9,7 @@ import UseTheme from './15_useTheme';
 import StyledButton from './16_Styled_Button';
 import LocalStorageIIHook from './17_Local_Storage_II_Hook';
 import LocalStorageIIIHook from './18_Local_Storage_III_Hook';
+import SubmitMessages from './19_Submit_Messages';
 
 const Layout = () => {
     return (
@@ -30,7 +31,7 @@ const Layout = () => {
             <hr color="red" />
             <hr color="blue" />
 
-            <h2>12. LocalStorage</h2>
+            <h2>12. Local-Storage</h2>
             <LocalStorage />
             <br />
             <hr color="red" />
@@ -62,6 +63,12 @@ const Layout = () => {
 
             <h2>18. Local-Storage-III-Hook</h2>
             <LocalStorageIIIHook />
+            <br />
+            <hr color="red" />
+            <hr color="blue" />
+
+            <h2>19. Submit-Messages</h2>
+            <SubmitMessages />
             <br />
             <hr color="red" />
             <hr color="blue" />
