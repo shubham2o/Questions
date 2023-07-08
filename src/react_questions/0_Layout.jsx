@@ -10,6 +10,7 @@ import StyledButton from './16_Styled_Button';
 import LocalStorageIIHook from './17_Local_Storage_II_Hook';
 import LocalStorageIIIHook from './18_Local_Storage_III_Hook';
 import SubmitMessages from './19_Submit_Messages';
+import WindowDimensionsHook from './20_Window_Dimensions_Hook';
 
 const Layout = () => {
     return (
