@@ -76,7 +76,6 @@ const Layout = () => {
 
             <h2>20. Window-Dimensions-Hook</h2>
             <WindowDimensionsHook />
-            <br />
             <hr color="red" />
             <hr color="blue" />
         </>
