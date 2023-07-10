@@ -11,6 +11,7 @@ import LocalStorageIIHook from './17_Local_Storage_II_Hook';
 import LocalStorageIIIHook from './18_Local_Storage_III_Hook';
 import SubmitMessages from './19_Submit_Messages';
 import WindowDimensionsHook from './20_Window_Dimensions_Hook';
+import ProgressBar from './21_Progress_Bar';
 
 const Layout = () => {
     return (
@@ -76,6 +77,12 @@ const Layout = () => {
 
             <h2>20. Window-Dimensions-Hook</h2>
             <WindowDimensionsHook />
+            <hr color="red" />
+            <hr color="blue" />
+
+            <h2>21. Progress-Bar</h2>
+            <ProgressBar />
+            <br />
             <hr color="red" />
             <hr color="blue" />
         </>
