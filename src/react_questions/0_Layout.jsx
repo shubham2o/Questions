@@ -13,6 +13,7 @@ import SubmitMessages from './19_Submit_Messages';
 import WindowDimensionsHook from './20_Window_Dimensions_Hook';
 import ProgressBar from './21_Progress_Bar';
 import TabBar from './22_Tab_Bar';
+import ValidateSignUpForm from './23_Validate_Sign_Up_Form';
 
 const Layout = () => {
     return (
@@ -91,6 +92,12 @@ const Layout = () => {
             <TabBar />
             <br />
             <br />
+            <br />
+            <hr color="red" />
+            <hr color="blue" />
+
+            <h2>23. Validate-Sign-Up-Form</h2>
+            <ValidateSignUpForm />
             <br />
             <hr color="red" />
             <hr color="blue" />
