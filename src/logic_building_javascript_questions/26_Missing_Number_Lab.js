@@ -3,6 +3,6 @@
 console.log(`26. 
 Missing Number Lab`);
 
-function missingNumberLab() {};
+function missingNumberLab() { };
 
 missingNumberLab();
