@@ -2,3 +2,7 @@
 
 console.log(`29.
 Minimum Index Sum of Two Lists Lab`);
+
+minimumIndexSumofTwoListsLab();
+
+function minimumIndexSumofTwoListsLab() {};
